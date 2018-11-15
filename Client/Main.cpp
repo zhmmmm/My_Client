@@ -1,7 +1,7 @@
 #include <winsock2.h>
 #include <iostream>
 #pragma comment(lib, "ws2_32.lib")
-
+#pragma comment(lib,"..\\Debug\\ClientDll.lib")
 using namespace std;
 int InitSocket()
 {
